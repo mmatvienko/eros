@@ -1,7 +1,7 @@
 # virtual env
 web-dev
 
-#necessary for npm or something
+# node stuff
 node_modules
 
 # settings
