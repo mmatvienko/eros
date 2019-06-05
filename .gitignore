@@ -2,7 +2,7 @@
 web-dev
 
 #necessary for npm or something
-node-modules
+node_modules
 
 # settings
 .vscode
