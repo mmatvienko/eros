@@ -1,0 +1,32 @@
+.right {
+  text-align: right;
+  margin: auto;
+  color: white;
+  font-size: 20px;
+}
+
+.italic {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.title {
+  font-size: 35px;
+}
+
+.col-md-6 {
+  /* border: 1px solid black; */
+}
+
+.education {
+  font-family: "Times New Roman", "Times", "serif";
+  padding: 20px;
+  /* for some reason padding left here doesnt work
+  TODO is to figure this out */
+}
+
+.course-work {
+  margin-top: 10px;
+  font-size: 20px;
+  color: white;
+}

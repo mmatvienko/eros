@@ -1,0 +1,31 @@
+.right {
+  text-align: right;
+  margin: auto;
+  color: white;
+  font-size: 20px;
+}
+
+.italic {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.job-title {
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.col-md-6 {
+  /* border: 1px solid black; */
+}
+
+.job {
+  padding: 20px;
+  font-family: "Times New Roman", "Times", "serif";
+}
+
+.description {
+  margin-top: 10px;
+  list-style-type: none;
+  color: black;
+}
