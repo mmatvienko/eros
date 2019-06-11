@@ -1,0 +1,62 @@
+{
+  "education": [
+    {
+      "id": 1,
+      "name": "The University of Texas at Austin",
+      "location": "Austin, TX",
+      "degree": "Bachelor of Science in Computer Science",
+      "gpa": "3.46",
+      "dates": ["Aug. 2016", "May. 2020"],
+      "course_work": [
+        "Computer Vision",
+        "Artificial Intelligence",
+        "Big Data",
+        "Differential Equations",
+        "Operating Systems Hons.",
+        "Computational Brain",
+        "Data Management",
+        "Computer Networks",
+        "Intro to Computer Security",
+        "Algorithms",
+        "Discrete Math",
+        "Data Structures Hons."
+      ],
+      "current_courses": [
+        "Neural Networks",
+        "Intro to Data Mining",
+        "Applied Linear Algebra"
+      ],
+      "color": [204, 85, 0]
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "company": "SparkCognition",
+      "position": "Software Engineer",
+      "location": "Austin, TX",
+      "dates": ["May. 2018", "Aug. 2018"],
+      "description": [
+        "Designed and created an extensible and modular information retrieval tool with a partner",
+        "Able to search over highly technical documents. Utilizes an ensemble model of TF-IDF, pesudo-PageRank, clustering, query expansion using custom word embeddings, and more.",
+        "Performed better than an in-house Apache Solr instance."
+      ],
+      "color": [26, 102, 122]
+    },
+
+    {
+      "id": 2,
+      "company": "Siemens AG",
+      "position": "Software Engineer",
+      "location": "Munich, Germany",
+      "dates": ["Jul. 2015", "Aug. 2015"],
+      "description": [
+        "Automated the reading and writing of Key Performance Indicators to a database using Visual Basic.",
+        "Developed data quality monitors in QlikView which were used to support the rollout of a worldwide application."
+      ],
+      "color": [0, 153, 153]
+    }
+  ],
+  "academia": [],
+  "projects": []
+}

@@ -6,3 +6,6 @@ node_modules
 
 # settings
 .vscode
+
+# play folder for UI
+counter-app/*
