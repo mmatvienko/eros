@@ -1,0 +1,12 @@
+.title-name {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Bookman", "Didot", serif;
+}
+
+.subtitle-name {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Bookman", "Didot", serif;
+  padding-bottom: 15px;
+}
