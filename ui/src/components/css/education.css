@@ -1,7 +1,7 @@
 .right {
   text-align: right;
   margin: auto;
-  color: white;
+  color: black;
   font-size: 20px;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .education {
-  font-family: "Times New Roman", "Times", "serif";
+  font-family: "Bookman", "Didot", serif;
   padding: 20px;
   /* for some reason padding left here doesnt work
   TODO is to figure this out */
@@ -28,5 +28,4 @@
 .course-work {
   margin-top: 10px;
   font-size: 20px;
-  color: white;
 }
