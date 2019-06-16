@@ -26,18 +26,29 @@
         "Intro to Data Mining",
         "Applied Linear Algebra"
       ],
-      "color": [204, 85, 0]
+      "color": [191, 87, 0]
     }
   ],
   "jobs": [
     {
       "id": 1,
       "company": "SparkCognition",
-      "position": "Software Engineer",
+      "position": "Data Science Intern",
+      "location": "Austin, TX",
+      "dates": ["May. 2019", "Present"],
+      "description": [
+        "Currently working on handling imbalanced datasets in SparkCognition's AutoML pipeline called Darwin."
+      ],
+      "color": [26, 102, 122]
+    },
+    {
+      "id": 2,
+      "company": "SparkCognition",
+      "position": "Software Engineering Intern",
       "location": "Austin, TX",
       "dates": ["May. 2018", "Aug. 2018"],
       "description": [
-        "Designed and created an extensible and modular information retrieval tool with a partner",
+        "Designed and created an extensible and modular information retrieval tool with a partner.",
         "Able to search over highly technical documents. Utilizes an ensemble model of TF-IDF, pesudo-PageRank, clustering, query expansion using custom word embeddings, and more.",
         "Performed better than an in-house Apache Solr instance."
       ],
@@ -45,9 +56,9 @@
     },
 
     {
-      "id": 2,
+      "id": 3,
       "company": "Siemens AG",
-      "position": "Software Engineer",
+      "position": "Software Development Intern",
       "location": "Munich, Germany",
       "dates": ["Jul. 2015", "Aug. 2015"],
       "description": [
@@ -55,8 +66,68 @@
         "Developed data quality monitors in QlikView which were used to support the rollout of a worldwide application."
       ],
       "color": [0, 153, 153]
+    },
+
+    {
+      "id": 4,
+      "company": "Lookfar",
+      "position": "Software Development Intern",
+      "location": "New Orleans, LA",
+      "dates": ["Jun. 2015", "Jul. 2015"],
+      "description": [
+        "Created an Android application on top of an API that allowed clients and developers to share usernames and passwords without storing them anywhere.",
+        "Repaired and maintained a client website and further prepared it for future mobile optimization.",
+        "Transferred user-password database information to in-house application to allow the company to operate in a more efficient manner."
+      ],
+      "color": [249, 161, 27]
     }
   ],
-  "academia": [],
-  "projects": []
+  "academia": [
+    {
+      "id": 1,
+      "position": "Research Assistant",
+      "field": "Computation and Language",
+      "dates": ["Aug. 2018", "May. 2019"],
+      "description": [
+        "Developed a methodology to train word embeddings given a small set of domain specific documents while maintaining natural laanguage properties vital to downstream applications.",
+        "Performed research to verify the aforementioned methodology emprically."
+      ],
+      "color": [191, 87, 0]
+    },
+    {
+      "id": 2,
+      "position": "Teaching Assistant",
+      "field": "Practical Applications of NLP",
+      "dates": ["Jan. 2019", "May. 2019"],
+      "description": [
+        "Implement and design assignment for student along with the other TA and Professor.",
+        "Student learn in an inverted classroom, allowing the TAs and Professor easy access to students' qustions and ideas.",
+        "Held office hours, graded projects, and guided students through their projects."
+      ],
+      "color": [191, 87, 0]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Edge Fitting",
+      "description": "Implemented the Hough Transform to fit lines to edges in images.",
+      "links": [],
+      "color": [191, 87, 0]
+    },
+    {
+      "id": 2,
+      "name": "Trading Framework",
+      "description": "Developing a modular framework for automated trading of stocks.",
+      "links": [],
+      "color": [191, 87, 0]
+    },
+    {
+      "id": 2,
+      "name": "AES",
+      "description": "Implemented AES in EBC mode in Python. Supports both encryption and decryption with 128-bit and 256-bit keys.",
+      "links": [],
+      "color": [191, 87, 0]
+    }
+  ]
 }
