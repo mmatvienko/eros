@@ -18,3 +18,6 @@ finished up with the react tutorial. pretty cool stuff. time to implement and ge
 
 **0610**
 Created tinting function that takes rgb values from flask api and calculates the tint to programmatically create a background for every job
+
+**0614**
+consider putting col-md-3 col-md-6 col-md-3 in resume instead of in each resume object file
