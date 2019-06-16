@@ -17,7 +17,7 @@ class Job extends Component {
     const g = color[1];
     const b = color[2];
 
-    const tinted = tintedHex(r, g, b, 0.5);
+    const tinted = tintedHex(r, g, b, 0.2);
     const hex = hexString(r, g, b);
 
     var title = {
@@ -25,30 +25,34 @@ class Job extends Component {
     };
 
     var bg = {
-      background: tinted,
-      padding: "40px"
+      color: tinted
     };
 
     return (
       <div className="row">
-        <div className="job col-md-9" style={bg}>
+        <div className="col-md-3" />
+        <div className="job col-md-6">
           <div className="row">
-            <div className="col-md-6 left job-title" style={title}>
+            <div className="col-md-8 left job-title" style={title}>
               {company}
             </div>
-            <div className="col-md-6 right">{location}</div>
+            <div className="col-md-4 right" style={bg}>
+              {location}
+            </div>
           </div>
 
-          <div className="row italic">
-            <div className="col-md-6 left">{position}</div>
-            <div className="col-md-6 right">
+          <div className="row ">
+            <div className="col-md-8 left head" style={bg}>
+              {position}
+            </div>
+            <div className="col-md-4 right italic" style={bg}>
               {dates[0]} - {dates[1]}
             </div>
           </div>
 
-          <ul className="description">
+          <ul className="description row">
             {description.map(item => (
-              <li>{item}</li>
+              <li className="col-md-9">{item}</li>
             ))}
           </ul>
         </div>
